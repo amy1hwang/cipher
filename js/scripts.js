@@ -9,6 +9,7 @@ alert(capitalize(sentence)); */
 
 
 $(document).ready(function() {
+
   var sentence = prompt("Please enter a sentence: ");
 
   console.log(sentence);
@@ -55,4 +56,9 @@ $(document).ready(function() {
   $("#panda").click(function() {
     alert(reverseCountNumber);
   });
+
+  $("#greeting").click(function() {
+    var name = prompt("What is your name?");
+    alert("Hello, " + name + "!");
+  })
 });
