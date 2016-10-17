@@ -28,3 +28,10 @@ p {
   font-size: 1.5em;
   color: gray;
 }
+
+button {
+  width: 210px;
+}
+#askSentence {
+  margin-top: 15px;
+}
