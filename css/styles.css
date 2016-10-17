@@ -32,6 +32,16 @@ p {
 button {
   width: 210px;
 }
+
 #askSentence {
   margin-top: 15px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+  button {
+    height: 100px;
+  }
+
 }
