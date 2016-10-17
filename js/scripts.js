@@ -10,6 +10,11 @@ alert(capitalize(sentence)); */
 
 $(document).ready(function() {
 
+  $("#greeting").click(function() {
+    var name = prompt("What is your name?");
+    alert("(>^-^)>Hello, " + name + "!<(^-^<)");
+  });
+
   $("#askSentence").click(function() {
     var sentence = prompt("Please enter a sentence: ");
 
