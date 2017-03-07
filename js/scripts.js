@@ -1,11 +1,3 @@
-/* var sentence = prompt("Please enter a sentence: ");
-
-var capitalize = function(sentence) {
-  var capitalSentence = sentence.charAt(0).toUpperCase() + sentence.slice(1, -1) + sentence.slice(-1).toUpperCase();
-  return capitalSentence;
-};
-
-alert(capitalize(sentence)); */
 
 
 $(document).ready(function() {
@@ -24,9 +16,6 @@ $(document).ready(function() {
       return capitalizedFirstLast;
     };
 
-
-    // var capitalizedSentence = capitalLetters(sentence)
-
     var reverseLetters = function(capitalizedSentence) {
       var reversedCapitals = capitalizedSentence.slice(-1) + capitalizedSentence.charAt(0);
       return reversedCapitals;
@@ -39,13 +28,9 @@ $(document).ready(function() {
       return reverseLetters(caps);
     };
 
-    console.log(callBoth(sentence));
-
     var combineEnd = function(sentence) {
       return sentence + callBoth(sentence);
     };
-
-    console.log(combineEnd(sentence));
 
     var countNumber = function(sentence) {
       var halfSentence = sentence.length / 2;
